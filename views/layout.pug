@@ -1,0 +1,108 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="x-ua-compatible" content="ie=edge")
+		title Tools For U
+		meta(name="description" content="Any tools you can think about, we have them! Open source project, our mission to create the biggest tools website with all the tools you will need!")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="apple-touch-icon" href="apple-touch-icon.png")
+		// Place favicon.ico in the root directory
+		link(rel="stylesheet" href="style.css")
+		link(rel="stylesheet" href="css/main.css")
+		script(src="js/vendor/modernizr-2.8.3.min.js")
+	body
+		//if lt IE 8
+			p.browserupgrade
+				| You are using an
+				strong outdated
+				|  browser. Please
+				a(href="https://browsehappy.com/") upgrade your browser
+				|  to improve your experience.
+		.wrapAll.clearfix
+			.sidebar
+				#logo
+					a(href="/")
+						img(src="img/logo.jpeg" alt="logo")
+						header
+							p Tools For U
+				.navigation
+					ul
+						li
+							a(href="/") Main page
+						li
+							a(href="#") Contents
+						li
+							a(href="#") Featured content
+					h3 Mathematics tools
+					ul
+						h4 Math
+						li
+							a(href="#") Calculator
+						h4 Geometry
+						li
+							a(href="#")
+					h3 Developer tools
+					ul
+						h4 CSS Generator
+						li
+							a(href="/tools/dev/css/flex-box") Flex box
+						h4 Templating Engines
+						h4 Code Manipulation
+						li
+							a(href="#") Editors
+						li
+							a(href="#") Minify & Unminify
+					h3 Interaction
+					ul
+						li
+							a(href="#") Help
+						li
+							a(href="#") About
+						li
+							a(href="#") Portal
+			.mainsection
+				.headerLinks
+					span.user Not logged in
+					a(href="#") Talk
+					a(href="#") Contributions
+					a(href="#") Create account
+					a(href="#") Log in
+				.tabs.clearfix
+					//- .tabsLeft
+					//- 	ul
+					//- 		li
+					//- 			a.active(href="#") Article
+					//- 		li
+					//- 			a(href="#") Talk
+					#simpleSearch
+						input#searchInput(type="text" name="searchInput" placeholder="Search Wikipedia" size="12")
+						#submitSearch
+					//- .tabsRight
+					//- 	ul
+					//- 		li
+					//- 			a.active(href="#") Read
+					//- 		li
+					//- 			a(href="#") View source
+					//- 		li
+					//- 			a(href="#") View history
+				.article
+					block tool
+					.categories
+						a(href="#") Minimum corrumpit
+						a(href="#") Regione suscipit
+						a(href="#") Has et partem
+				.pagefooter
+					| This page was last edited on 29.07.2017 | Template by
+					a(href="http://html5-templates.com/" target="_blank" rel="nofollow") HTML5 Templates
+					// Please leave this link unchanged
+					.footerlinks
+						a(href="#") Privacy policy
+						a(href="#") About
+						a(href="#") Terms and conditions
+						a(href="#") Cookie statement
+						a(href="#") Developers
+		script(src="https://code.jquery.com/jquery-1.12.0.min.js")
+		script.
+			window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\\/script>')
+		script(src="script.js")
